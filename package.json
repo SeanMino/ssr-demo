@@ -1,0 +1,30 @@
+{
+  "name": "ssr-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "babel-loader": "^7.0.0",
+    "ejs": "^2.6.1",
+    "koa": "^2.7.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.5",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "webpack": "^3.0.0"
+  }
+}
